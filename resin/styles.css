@@ -8,6 +8,30 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Quizlo';
+    src: url('fonts/Quizlo DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Astila';
+    src: url('fonts/Astila-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Agale';
+    src: url('fonts/Agale DEMO.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 /* Reset and Base Styles */
 * {
     margin: 0;
@@ -79,7 +103,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #1e3a8a;
     font-size: 1.8rem;
     font-weight: 700;
-    font-family: 'Anta', 'Playfair Display', serif;
+    font-family: 'Agale', 'Astila', 'Anta', 'Playfair Display', serif;
     letter-spacing: 0.5px;
     text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     display: flex;
@@ -875,13 +899,13 @@ section:first-of-type {
 .founder-name {
     color: #BD916F;
     font-weight: 600;
-    font-family: 'Anta', 'Playfair Display', serif;
+    font-family: 'Quizlo', 'Anta', 'Playfair Display', serif;
 }
 
 .developer-name {
     color: #1e3a8a;
     font-weight: 600;
-    font-family: 'Anta', 'Playfair Display', serif;
+    font-family: 'Quizlo', 'Anta', 'Playfair Display', serif;
 }
 
 /* Optimized Animations */
